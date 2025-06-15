@@ -1,5 +1,7 @@
 body{
     background-image: url(starter-code/assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
 }
 .header{
@@ -28,9 +30,12 @@ body{
 }
 .d1{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 10px;
     font-size: 12px;
+    color: white;
+    text-decoration: white;
+    text-decoration: underline , white;
 }
 .img1{
     margin: 40px;
@@ -42,19 +47,23 @@ body{
 }
 .p1{
     color: white;
+    cursor: pointer;
 }
 .d2{
     display: flex ;
     gap: 10px;
+    margin-left: 400px;
     padding: 50px;
+    font-size: 20px;
 }
 .h1{
     color: white;
+    font-size: 50px;
 }
 .container{
 display: flex;
 justify-content: center;
-gap: 50px;
+gap: 200px;
 
 }
 .mars{
@@ -65,6 +74,7 @@ gap: 50px;
 .planets{
     display: flex;
     gap: 10px;
+    text-decoration: underline white;
 }
 .container2{
     display: flex;
@@ -74,4 +84,11 @@ gap: 50px;
     background-color: white;
     height: 1px;
     width: 100%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.p5{
+    margin-top: 100px;
 }
